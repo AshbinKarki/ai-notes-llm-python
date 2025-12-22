@@ -1,0 +1,12 @@
+flask
+flask-cors
+flask-sqlalchemy
+werkzeug
+
+streamlit
+
+langchain
+langchain-ollama
+pydantic
+
+sqlalchemy
