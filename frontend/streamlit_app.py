@@ -5,7 +5,6 @@ import streamlit as st
 BACKEND_URL = "http://localhost:5000"  # Flask backend URL
 
 
-# -------- Helper: Backend calls --------
 def register_user(username: str, password: str):
     resp = requests.post(
         f"{BACKEND_URL}/api/register",
